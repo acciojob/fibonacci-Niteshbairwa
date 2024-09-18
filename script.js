@@ -6,10 +6,8 @@ for(let i=0; i<=num; i++){
 	nextterm = n1+n2;
 	n1= n2;
 	n2 = nextterm;
-	return: n1;
-	
-	
 }
+	return : n1;
 }
 
 module.exports = fibonacci;
